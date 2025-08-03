@@ -127,13 +127,15 @@ nav.right a span {
 .skills-section .cells {
     display: flex;
     justify-content: center;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 .skills-section .cells .cell{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+
     width: 200px;
     padding: 10px 20px;
     margin: 10px;
@@ -145,7 +147,7 @@ nav.right a span {
     width: 30px;
     height: 30px;
     object-fit: contain;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .skills-section .cells .cell span{
